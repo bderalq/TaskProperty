@@ -8,9 +8,8 @@ for (int i = 1; i <= count; i++)
 {
     Console.WriteLine("enter username : " + count);
     string username = Console.ReadLine();
-    info.AddUsername(username);
+    info.username=username;
 }
-info.GetUsername();
 
 
 //info.Salary(salary);
